@@ -452,7 +452,7 @@ public void service1(int accessCode) {
 	...
 }
 
-@GetAction("/service/{<[0-9]{6}>accessCode}")
+@GetAction("/service/{<[0-9]{5}>accessCode}")
 public void service2(int accessCode) {
 	...
 }
